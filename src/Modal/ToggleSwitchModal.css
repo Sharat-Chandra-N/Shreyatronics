@@ -1,0 +1,109 @@
+.ts-modal-background{
+    background-color: rgba(200, 200, 200, 0.85);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    margin: auto;
+    text-align: center;
+}
+
+.ts-modal{
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: auto;
+    width: 30%;
+}
+
+.ts-modal-header,.ts-modal-content,.ts-modal-footer{
+    padding: 20px 0px;
+}
+
+.ts-modal-desc, .ts-modal-quan, .ts-modal-power{
+    text-align: left;
+    margin: 20px 0px;
+    vertical-align: middle;
+} 
+
+.ts-modal-label{
+    width: 45%;    
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.ts-modal-input{
+    padding: 5px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+.ts-modal-validation h4{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.ts-modal-success h4{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ts-modal-content{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ts-modal-cart, .ts-modal-cancel{
+    justify-content:space-evenly;
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+    border: none;
+    padding: 10px;
+}
+
+.ts-modal-cart{
+    width: 30%;
+    background-color: rgb(18, 18, 180);
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.ts-modal-label{
+    text-align: left;
+    width: 30%;
+}
+
+.ts-modal-input{
+    width: 60%;
+}
+
+.ts-modal-cart :hover{
+    background-color: white;
+    color: rgb(18, 18, 180);;
+}
+
+.ts-modal-cancel{
+    width: 30%;
+    background-color: rgb(190, 20, 20);
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.ts-modal-cancel :hover{
+    background-color: white;
+    color: rgb(190, 20, 20);
+}

@@ -1,0 +1,37 @@
+.main-section{
+    width: 97%;
+    /* border: black 2px solid; */
+    margin: 20px auto;
+    align-items: center;
+    background-color: rgb(238, 232, 232);
+    padding: 70px;
+}
+
+.header{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.small-header{
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.companies-section{
+    width: 70%;
+    /* border: black 2px solid; */
+    margin: auto;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+.company{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 0px 50px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(75, 72, 72);
+    /* justify-content: center; */
+}

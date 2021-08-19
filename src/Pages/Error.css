@@ -1,0 +1,19 @@
+.error-section{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.error-button{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin: 20px 0px;
+}
+
+.error-button:hover{
+    color: lightgray;
+    background-color: black;
+}

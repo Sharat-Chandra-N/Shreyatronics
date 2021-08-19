@@ -1,0 +1,36 @@
+.section{
+    width: 75%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.main-heading{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.products-section{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.horiz-section{
+    width: 50%;
+    margin: auto;
+}
+
+.product{
+    width: 33%;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    margin: 25px 50px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.product-image{
+    width: 10vmax;
+    height: 14vmax;
+}

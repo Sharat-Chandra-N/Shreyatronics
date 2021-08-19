@@ -1,0 +1,74 @@
+.empty-cart{
+    text-align: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.cart-section{
+    width: 70%;
+    margin: 10px auto;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.table{
+    border-collapse: collapse;
+    box-shadow: 0px 5px 10px grey;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+.thead{
+  border-radius: 3%;
+}
+
+.table th{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: rgb(131, 133, 133);
+  color: whitesmoke;
+}
+
+.table td{
+  padding: 10px 20px;
+}
+
+.button-section{
+      border: none;
+  }
+
+.delete-button ,.submit-btn{
+    /* width: 50%; */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: grey;
+    color: honeydew;
+  }
+
+  .delete-button:hover,.submit-btn:hover{
+    background-color: lightgray;
+    color: black;
+  }
+
+  .item-desc{
+    margin: 10px 0px;
+  }
+
+  .table .tr-1, .tr-3, .tr-5, .tr-7, .tr-9, .tr-11, .tr-13, .tr-15{
+    background-color: rgb(241, 237, 237);
+  }
+
+  .submit-section{
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  .submit-btn{
+    width: 50%;
+  }
