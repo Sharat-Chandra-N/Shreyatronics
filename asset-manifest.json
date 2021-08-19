@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Shreyatronics/static/css/main.06f14e13.chunk.css",
+    "main.js": "/Shreyatronics/static/js/main.a85e5ec3.chunk.js",
+    "main.js.map": "/Shreyatronics/static/js/main.a85e5ec3.chunk.js.map",
+    "runtime-main.js": "/Shreyatronics/static/js/runtime-main.07c814de.js",
+    "runtime-main.js.map": "/Shreyatronics/static/js/runtime-main.07c814de.js.map",
+    "static/js/2.d98e574e.chunk.js": "/Shreyatronics/static/js/2.d98e574e.chunk.js",
+    "static/js/2.d98e574e.chunk.js.map": "/Shreyatronics/static/js/2.d98e574e.chunk.js.map",
+    "static/js/3.19a73f6d.chunk.js": "/Shreyatronics/static/js/3.19a73f6d.chunk.js",
+    "static/js/3.19a73f6d.chunk.js.map": "/Shreyatronics/static/js/3.19a73f6d.chunk.js.map",
+    "index.html": "/Shreyatronics/index.html",
+    "static/css/main.06f14e13.chunk.css.map": "/Shreyatronics/static/css/main.06f14e13.chunk.css.map",
+    "static/js/2.d98e574e.chunk.js.LICENSE.txt": "/Shreyatronics/static/js/2.d98e574e.chunk.js.LICENSE.txt",
+    "static/media/DoublePole.4456c47c.png": "/Shreyatronics/static/media/DoublePole.4456c47c.png",
+    "static/media/FourPole.5eac88cc.png": "/Shreyatronics/static/media/FourPole.5eac88cc.png",
+    "static/media/SinglePole.3934edbb.png": "/Shreyatronics/static/media/SinglePole.3934edbb.png",
+    "static/media/TriplePole.aa57ec30.png": "/Shreyatronics/static/media/TriplePole.aa57ec30.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07c814de.js",
+    "static/js/2.d98e574e.chunk.js",
+    "static/css/main.06f14e13.chunk.css",
+    "static/js/main.a85e5ec3.chunk.js"
+  ]
+}
