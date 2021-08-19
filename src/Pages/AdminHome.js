@@ -11,7 +11,7 @@ const AdminHome = () => {
     }
 
     return ( 
-        <h2>Admin Home Main</h2>
+        <h2>Admin Home Main Page</h2>
      );
 }
  
