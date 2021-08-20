@@ -16,25 +16,25 @@ const Gilard = () => {
                     <hr />
                 </div>
                 <div className="products-section">
-                    <Link to={`/ToggleSwitch/Single Pole`}>
+                    <Link to={`/Shreyatronics/ToggleSwitch/Single Pole`}>
                         <div className="product">
                             <img className="product-image" src={SinglePole} alt="" />
                             <h4>Single Pole</h4>
                         </div>
                     </Link>
-                    <Link to={`/ToggleSwitch/Double Pole`}>
+                    <Link to={`/Shreyatronics/ToggleSwitch/Double Pole`}>
                         <div className="product">
                             <img className="product-image" src={DoublePole} alt="" />
                             <h4>Double Pole</h4>
                         </div>
                     </Link>
-                    <Link to={`/ToggleSwitch/Triple Pole`}>
+                    <Link to={`/Shreyatronics/ToggleSwitch/Triple Pole`}>
                         <div className="product">
                             <img className="product-image" src={TriplePole} alt="" />
                             <h4>Triple Pole</h4>
                         </div>
                     </Link>
-                    <Link to={`/ToggleSwitch/Four Pole`}>
+                    <Link to={`/Shreyatronics/ToggleSwitch/Four Pole`}>
                         <div className="product">
                             <img className="product-image" src={FourPole} alt="" />
                             <h4>Four Pole</h4>
@@ -50,13 +50,13 @@ const Gilard = () => {
                     <hr />
                 </div>
                 <div className="products-section">
-                    <Link to={`/TerminalBlocks/7213`}>
+                    <Link to={`/Shreyatronics/TerminalBlocks/7213`}>
                         <div className="product">
                             <img className="product-image" src={SinglePole} alt="" />
                             <h4>TS</h4>
                         </div>
                     </Link>
-                    <Link to={`/TerminalBlocks/7513`}>
+                    <Link to={`/Shreyatronics/TerminalBlocks/7513`}>
                         <div className="product">
                             <img className="product-image" src={SinglePole} alt="" />
                             <h4>T/B ASSY Conductor</h4>

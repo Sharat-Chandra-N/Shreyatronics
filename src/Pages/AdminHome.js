@@ -7,7 +7,7 @@ const AdminHome = () => {
     const history = useHistory()
 
     if(!loggedIn){
-        history.push('./')
+        history.push('./Shreyatronics')
     }
 
     return ( 

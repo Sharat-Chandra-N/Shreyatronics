@@ -13,32 +13,29 @@ const NavBar = () => {
         <nav>
             <div className ="main-navbar">
                 <Link 
-                    to="/" 
-                    onClick={() => updateLoginStatus()} 
+                    to="/Shreyatronics"
                     className="main-header">
                     <h1 className ="main-header">Shreyatronics</h1>
                 </Link>
                 <Link 
-                    to="/Cart" 
-                    onClick={() => updateLoginStatus()} 
+                    to="/Shreyatronics/Cart"
                     className="main-header-cart">
                     <h4 className ="main-header-cart">Cart</h4>
                     {cart.length !== 0 && <h4 className ="main-header-cart-length">({cart.length})</h4>}
                 </Link>
                 <Link 
-                    to="/ContactUs" 
-                    onClick={() => updateLoginStatus()} 
+                    to="/Shreyatronics/ContactUs" 
                     className="main-header-contact">
                     <h4 className ="main-header-contact">Contact Us</h4>
                 </Link>
                 {loggedIn && 
                     <Link 
-                        to="/Admin" 
+                        to="/Shreyatronics/" 
                         onClick={() => updateLoginStatus()} 
                         className="main-header-contact">
                         <h4 className ="main-header-contact">Logout</h4>
-                        </Link>
-                    }
+                    </Link>
+                }
             </div>
         </nav>
      );

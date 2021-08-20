@@ -13,7 +13,7 @@ const AdminLogin = () => {
 
     const loginHandler = () => {
         if(process.env.REACT_APP_USER_NAME === username && process.env.REACT_APP_PASSWORD === password){
-            history.push('/Admin/Home')
+            history.push('/Shreyatronics/Admin/Home')
             updateLoginStatus()
         }else{
             updateLoginCount()

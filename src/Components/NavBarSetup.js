@@ -17,26 +17,26 @@ const NavBarSetup = () => {
         <Router>
             <NavBar />
             <Switch>
-                <Route exact path = "/">
+                <Route exact path = "/Shreyatronics">
                     <Home />
                 </Route>
-                <Route exact path = "/Gilard">
+                <Route exact path = "/Shreyatronics/Gilard">
                     <Gilard />
                 </Route>
-                <Route exact path = "/ToggleSwitch/:name" children = {<Product />}>
+                <Route exact path = "/Shreyatronics/ToggleSwitch/:name" children = {<Product />}>
                 </Route>
-                <Route exact path = "/TerminalBlocks/:name" children = {<ProductTB />}>
+                <Route exact path = "/Shreyatronics/TerminalBlocks/:name" children = {<ProductTB />}>
                 </Route>
-                <Route exact path = "/Cart">
+                <Route exact path = "/Shreyatronics/Cart">
                     <Cart />
                 </Route>
-                <Route exact path = "/Admin">
+                <Route exact path = "/Shreyatronics/Admin">
                     <AdminLogin />
                 </Route>
-                <Route exact path = "/Admin/Home">
+                <Route exact path = "/Shreyatronics/Admin/Home">
                     <AdminHome />
                 </Route>
-                <Route exact path = "/ContactUs">
+                <Route exact path = "/Shreyatronics/ContactUs">
                     <ContactUs />
                 </Route>
                 <Route exact path = "*">

@@ -9,12 +9,12 @@ const Home = () => {
                 <h1 className = "header">Welcome to Shreyatronics!</h1>
                 <h4 className = "small-header">We are dealers in Gilard and Sonya products</h4>
                 <div className = "companies-section">
-                <Link to = "/Gilard">
+                <Link to = "/Shreyatronics/Gilard">
                     <div className = "company">
                         <h3 className = "company-heading">View Gilard Products</h3>
                     </div>
                 </Link>
-                <Link to = "/Gilard">
+                <Link to = "/Shreyatronics/Gilard">
                     <div className = "company">
                         <h3 className = "company-heading">View Sonya Products</h3>
                     </div>
